@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #7faaef;
+  height: 100px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.header {
+  height: 100px;
+  padding: 30px;
+  color: white;
+  font-family: Monaco;
+}
+
+.header-two {
+  height: 100px;
+  padding: 30px;
+  color: black;
+  font-family: Monaco;
+}
+
+.main-menu {
+  padding: 20px;
+}
+
+.total {
+  padding: 20px;
+  text-align: right;
+  font-family: Monaco;
+  font-size: 20px;
+}
+
+.list-group-item {
+  font-family: Monaco;
+  margin: 30px;
+}
+
+.itemname {
+  float: left;
+}
+
+.button-remove {
+  float: right;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
