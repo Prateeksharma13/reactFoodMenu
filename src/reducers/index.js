@@ -51,7 +51,6 @@ const items = (state = initialState, action) => {
             return Object.assign({}, state, {
                 selectedItems: newItem,
                 count: total ,
-
             });
         case 'ITEM_REMOVED':
               let newItemRemove;
